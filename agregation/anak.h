@@ -9,5 +9,9 @@ public:
     {
         cout << "Anak \"" << nama << "\" ada\n";
     }
+    ~anak()
+    {
+        cout << "Anak \"" << nama << "\" tidal ada \n";
+    }
 };
 #endif
