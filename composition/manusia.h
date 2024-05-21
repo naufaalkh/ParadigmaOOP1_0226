@@ -1,5 +1,5 @@
 #ifndef MANUSIA_H
-3define MANUSIA_H
+#define MANUSIA_H
 using namespace std;
 
 class manusia {
