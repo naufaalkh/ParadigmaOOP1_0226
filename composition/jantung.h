@@ -1,14 +1,16 @@
 #ifndef JANTUNG_H
 #define JANTUNG_H
 
-class jantung {
+class jantung
+{
 public:
-    jantung() {
+    jantung()
+    {
         cout << "jantung dihidupkan\n";
     }
-    ~jantung() {
+    ~jantung()
+    {
         cout << "jantung dimatikan\n";
     }
 };
-
 #endif

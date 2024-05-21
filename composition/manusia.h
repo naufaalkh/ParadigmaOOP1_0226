@@ -2,15 +2,19 @@
 #define MANUSIA_H
 using namespace std;
 
-class manusia {
+class manusia
+{
 public:
     string name;
     jantung varJantung;
 
-    manusia(string pName): name(pName) {
+    manusia(string pName)
+        : name(pName)
+    {
         cout << name << " hidup\n";
     }
-    ~manusia() {
+    ~manusia()
+    {
         cout << name << " mati\n";
     }
 };
